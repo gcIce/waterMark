@@ -1,14 +1,14 @@
 # waterMark
 图片添加全屏水印,可添加照片
-引入G_FrameParserConfig.h和G_WaterMark.h 
-//配置水印参数
-G_FrameParserConfig *config = [[G_FrameParserConfig alloc] init];
+
+    引入G_FrameParserConfig.h和G_WaterMark.h 
+    //配置水印参数
+    G_FrameParserConfig *config = [[G_FrameParserConfig alloc] init];
      //行间距
     config.lineSpace = 40; 
-    
      //字体颜色
     config.textColor = [UIColor whiteColor]; 
-    
+ 
     //字体大小
     config.fontSize = 22; 
     
